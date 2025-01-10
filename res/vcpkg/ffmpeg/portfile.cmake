@@ -23,6 +23,8 @@ vcpkg_from_github(
     patch/0005-mediacodec-changing-bitrate.patch
     patch/0006-dlopen-libva.patch
     patch/0007-fix-linux-configure.patch
+    patch/0008-remove-amf-loop-query.patch
+    patch/0009-fix-nvenc-reconfigure-blur.patch
 )
 
 if(SOURCE_PATH MATCHES " ")
