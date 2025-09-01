@@ -708,6 +708,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Failed to check if the user is an administrator.", "Fout bij het controleren of de gebruiker een beheerder is."),
         ("Supported only in the installed version.", "Alleen ondersteund in de geïnstalleerde versie."),
         ("elevation_username_tip", "Voer je gebruikersnaam of domeinnaam in"),
-        ("Preparing for installation ...", "Voorbereiden voor installatie ..."),
+        ("Preparing for installation ...", "Installatie voorbereiden ..."),
+        ("Show my cursor", ""),
     ].iter().cloned().collect();
 }
